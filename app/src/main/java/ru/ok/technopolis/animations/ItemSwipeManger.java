@@ -1,12 +1,14 @@
 package ru.ok.technopolis.animations;
 
 import android.content.Context;
-import android.support.animation.DynamicAnimation;
-import android.support.animation.FlingAnimation;
-import android.support.animation.SpringAnimation;
-import android.support.animation.SpringForce;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.dynamicanimation.animation.DynamicAnimation;
+import androidx.dynamicanimation.animation.FlingAnimation;
+import androidx.dynamicanimation.animation.SpringAnimation;
+import androidx.dynamicanimation.animation.SpringForce;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
